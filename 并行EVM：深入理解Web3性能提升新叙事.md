@@ -10,11 +10,19 @@
 
 ![](/Users/likejun/Desktop/TEAM-C/Gryphsis/ga-final-report/fig1-Ethereum Trans Count & Active Wallets.png)
 
-source: https://dune.com/hildobby/ethereum
-
 尤其是经历了2020年DeFi Summer以及2023年年末比特币生态中铭文的持续爆发，业界迫切需要新的性能提升方案来满足“高性能、低费率”的要求。并行EVM的新叙事就是在这样的背景下诞生的。
 
 ### 1.2 市场规模
+
+并行EVM叙事的项目一般分为两派，一派自建L1，成为自带并行交易处理能力的新公链。另一派成为L2，通过整合其他链的能力进行扩容。L1这一派中，以Monad和Sei v2为代表的项目自行设计并行EVM，为以太坊生态提供更快速的交易处理能力。以Solana、Aptos和Sui为代表的项目则另起炉灶，成为以太坊强有力的竞争者。L2这一派中，以Neon、Eclipse为代表的的项目通过整合EVM和Solana来提高并行处理能力，但实现思路上有各自的特点。Lumio通过整合Aptos的交易处理能力和以太坊的交易结算能力来提供基于OP Rollup的解决方案。Fuel则不满足于只成为以太坊L2协议，而是在其第二个版本中将自己定位成未来更灵活、更彻底的模块化执行层：既可以成为 L2，也可以成为 L1，甚至是侧链或状态通道。
+
+![](/Users/likejun/Desktop/TEAM-C/Gryphsis/ga-final-report/fig2-PEVM Market Cap.png)
+
+目前并行EVM叙事才刚刚兴起，相关叙事的项目还不多，还处于比较早期的阶段。成立于2017年的L1公链项目Solana在各个方面都超越其他的一些新公链，是以太坊生态强有力的竞争者。但新兴公链如Monad的潜力也不容小视。
+
+![](/Users/likejun/Desktop/TEAM-C/Gryphsis/ga-final-report/fig3-PEVM vs Ethereum Ecosystems & L1.png)
+
+总的来看，并行EVM主要项目目前代币流通市值约为523.69亿美元，24小时交易量约为31.029亿美元。其中L1项目占比最大，其代币流通市值为523亿美元，24小时交易量为31亿美元，相比之下L2项目可忽略不计。而当前EVM生态总市值约为3900亿美元，24小时交易量约为342亿美元。L1生态代币流通市值为5730亿美元，24小时交易量为288亿美元。无论是总体上与以太坊生态进行比较，还是单独观察L1项目与整个L1生态，并行EVM叙事都有很大的成长空间。而且随着进一步的发展，L2项目的发展也潜力巨大。
 
 ###1.3 行业图谱
 
@@ -25,6 +33,8 @@ source: https://dune.com/hildobby/ethereum
 ## 2 标的梳理
 
 ## 3 结论与展望
+
+为牛市做准备
 
 
 
