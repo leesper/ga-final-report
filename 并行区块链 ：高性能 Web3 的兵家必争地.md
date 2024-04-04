@@ -342,7 +342,9 @@ Neon 号称 Solana 生态第一个并行 EVM 项目，开发者可以利用它�
 
 Eclipse 采取了另一种实现思路：**通过 SVM 执行交易，通过 EVM 结算交易**。 Eclipse 采取模块化区块链的架构，即它只负责交易的执行，而把其他的职责“外包”出去，通过模块化组合形成统一解决方案。比如利用 Celestia 管理数据可用性，利用以太坊执行交易的结算。 Eclipse 利用 SVM 保证了执行速度，通过以太坊的验证和结算保证了安全性。
 
-![](/Users/likejun/Desktop/TEAM-C/Gryphsis/ga-final-report/fig22-eclipse modular blockchain.png)Lumio 采用的是一种与执行层和结算层无关的设计思路，可支持多种虚拟机，兼容各种 L1/L2 网络： Ethereum、Aptos、Optimism、Avalanche、zkSync ，诸如此类。它**通过 Move VM 执行交易，通过 EVM 结算交易**，这样一来就把以太坊生态和 Aptos 生态连接起来了。然而 Lumio 的雄心并不止步于此，它的愿景是提供跨虚拟机调用，**以最快的速度和最低的费率实现多种区块链流动性的互联**。 
+![](/Users/likejun/Desktop/TEAM-C/Gryphsis/ga-final-report/fig22-eclipse modular blockchain.png)
+
+Lumio 采用的是一种与执行层和结算层无关的设计思路，可支持多种虚拟机，兼容各种 L1/L2 网络： Ethereum、Aptos、Optimism、Avalanche、zkSync ，诸如此类。它**通过 Move VM 执行交易，通过 EVM 结算交易**，这样一来就把以太坊生态和 Aptos 生态连接起来了。然而 Lumio 的雄心并不止步于此，它的愿景是提供跨虚拟机调用，**以最快的速度和最低的费率实现多种区块链流动性的互联**。 
 
 以上就是目前与并行 EVM 叙事有关的主要项目，如下图所示。
 
